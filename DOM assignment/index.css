@@ -1,0 +1,162 @@
+header{
+    text-align: center;
+    font-size: 200%;
+    font-weight: bolder;
+}
+#fe{
+    border-radius: 55px;
+}
+body{
+    background-color: #30E8BF;
+    background-image:conic-gradient(#30E8BF,#D66D75,#6190E8,#B06AB3)
+}
+p{
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#dom
+{
+    font-size: x-large;
+    padding-top: 90px;
+    padding-left: 190px;
+}
+.one{
+   
+    margin-top: 20px;
+    border-radius: 25px;
+    width: 280%;
+    height: 40px;
+}
+.two{
+    margin-top: 20px;
+    border-radius: 25px;
+    width: 280%;
+    height: 40px;
+}
+.three{
+    margin-top: 20px;
+    border-radius: 25px;
+    width: 280%;
+    height: 40px;
+}
+.four{
+    margin-top: 20px;
+    border-radius: 25px;
+    width: 280%;
+    height: 40px;
+}
+main{
+    display: flex;
+}
+#sec{
+    padding-top: 100px;
+    padding-left: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 150%;
+    
+}
+#butt{
+    margin-top: 16px;
+    margin-left: 90px;
+    height: 25px;
+    width: 90px;
+    border-radius: 10px;
+    padding-top: 2px;
+    background-color: #D66D75;
+}
+.di{
+    
+    word-spacing: 50px;
+    padding-left: 30px;
+    padding-top: 5px;
+    width: 35%;
+    height: 70px;
+    margin-bottom: 10px;
+    position:absolute;
+
+}
+
+.fl{
+    
+    margin-top: 100px;
+    
+    
+}
+.todolist{
+    position: relative;
+    border: 1px solid black;
+    width: 600px;
+    height: 60px;
+    margin-bottom: -85px;
+    
+}
+.dell{
+    font-weight: bolder;
+    margin-left: 510px;
+    width: 70px;
+    border-radius: 8px;
+    padding-left: 5px;
+    
+    height: 40px;
+}
+.para1{
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 60px;
+}
+.para2{
+    padding-top: 15px;
+    padding-right: 80px;
+}
+.para3{
+    padding-top: 5px;
+    padding-right: 80px;   
+}
+.para4{
+    padding-top: 5px;
+    padding-left:30px;
+}
+@media screen and (width<1700px) and (height<1300px) {
+    body{
+        height: 700px;
+        width: 500px;
+    }
+    #fe{
+        border: 8px solid lightgrey;
+        width: 1500px;
+    }
+    header{
+        font-size: 350%;
+    }
+    p{
+        font-size: 150%;
+    }
+    #dom{
+        font-size: 290%;
+        padding-left: 100px;
+    }
+    .one{
+        height: 50px;
+        font-size: x-large
+    }
+    .two{
+        height: 50px;
+        font-size: x-large;
+    }
+    .three{
+        height: 50px;
+        font-size: x-large;
+    }
+    .four{
+        height: 50px;
+        font-size: x-large;
+    }
+    #butt{
+        height: 70px;
+        width: 120px;
+        font-size: 70%;
+    }
+    
+    
+}
