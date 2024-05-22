@@ -1,0 +1,14 @@
+/*In this color property is used for only text*/
+h1{
+    color: coral;
+}
+#MI{
+    font-family:fantasy;
+}
+body{
+    background-color: wheat;
+}
+button{
+    background-color: tomato;
+    color: blueviolet;
+}

@@ -1,0 +1,132 @@
+body{
+    background-color: black;
+    
+}
+.main{
+    color: white;
+    position: absolute;
+    background-image:url("https://my-cloneott.netlify.app/assets/images/bg.jpg");
+    height: 690px;
+    width: 1510px;
+    margin-right: 0px;
+    
+}
+#btn-red{
+    border-radius: 5px;
+    background-color: red;
+    padding: 8px;
+    color: white;
+}
+#btn{
+    border-radius: 5px;
+    margin-top: 05px;
+    margin-left: 600px;
+    color: white;
+    background-color: gray;
+    padding: 8px;
+   
+}
+nav{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60vw;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+#u{
+    padding-top: 180px;
+    padding-left: 230px;
+}
+#u>:nth-child(1){
+    font-weight: bolder;
+    width: 80vw;
+   font-size:300%;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin-bottom: 10px;
+}
+#u>:nth-child(2){
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 200%;
+    width: 60vw;
+    padding-left: 20vw;
+}
+#u>:nth-child(3){
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 190%;
+    width: 60vw;
+    margin-top: 20px;
+    padding-left:70px;
+}
+.separation{
+    
+    background-color:rgb(58, 60, 60);
+    height: 700px;
+    
+}
+
+.u-but{
+    padding-left: 550px;
+    margin-top: 30px;
+}
+input{
+    height: 30px;
+    border-radius: 5px;
+    width: 300px;
+    color: white;
+    padding: 3px;
+}
+#u-b{
+    height: 35px;
+    color: white;
+    width: 150px;
+    padding:3px;
+    background-color: red;
+    
+}
+#first{
+    background-color:rgb(12, 12, 12);
+    height: 500px;
+    max-width: 97vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#im{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 100px;
+}
+
+#im video{
+    
+    width: 460px;
+}
+#im img{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+}
+.hero{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:290%;
+    padding-left: 100px;
+    width: 150vw;
+}
+.hero>:nth-child(1){
+    width: 850px;
+    font-size: 150%;
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.hero>:nth-child(2){
+    font-size: 70%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+

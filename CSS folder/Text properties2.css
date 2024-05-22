@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color:turquoise;
+    text-decoration-thickness: 8px;
+}
+#MI{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+}

@@ -1,0 +1,23 @@
+div{
+    border: 1px solid red;
+    margin: 10px;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    background-color: aqua;
+
+}
+body{
+    background-image: linear-gradient(pink,violet);
+}
+section{
+    display: block;
+}
+@media (width <700px){
+    section{
+        display: flex;
+    }
+    div{
+        width: 500px;
+    }
+}

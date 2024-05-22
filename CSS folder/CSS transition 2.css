@@ -1,0 +1,15 @@
+div{
+    border: 3px solid rebeccapurple;
+    height: 300px;
+    width: 300px;
+    background-color: chocolate;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in;
+    
+
+}
+div:hover{
+    
+    border-radius: 300px;
+}

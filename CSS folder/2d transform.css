@@ -1,0 +1,23 @@
+.container{
+    width: 1500px;
+    height: 700px;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border: 2px solid brown;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    background-color: blueviolet;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+
+    
+}
+.box:hover{
+    transform:translate(300px)
+    
+}

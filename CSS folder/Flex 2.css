@@ -1,0 +1,10 @@
+div{
+    border: 2px double saddlebrown;
+    background-color: coral;
+    margin: 10px;
+    padding: 10px;
+}
+we{
+    display: flex;
+    flex-direction:row;
+}

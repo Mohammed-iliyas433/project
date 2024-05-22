@@ -1,0 +1,14 @@
+/*The below text align is align text in any direction*/
+.MI{
+    text-align: center;
+}
+#po{
+    text-align:justify ;
+       
+}
+h1{
+    text-align: center;
+    text-decoration:overline;
+    text-decoration-color:violet;
+    text-decoration-thickness: 8px;
+}

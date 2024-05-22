@@ -1,0 +1,9 @@
+p{
+    border: 5px solid burlywood;
+    color:brown;
+    background-color:skyblue;
+    
+}
+div{
+    display: flex;
+}

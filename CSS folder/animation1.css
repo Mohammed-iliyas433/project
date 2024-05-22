@@ -1,0 +1,27 @@
+body{
+    background-color: cadetblue;
+}
+div{
+    border: 5px solid red;
+    background-color: chocolate;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    animation-name: movement;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes movement{
+    from{
+        top:0px;
+        left:250px;
+    }
+    to{
+        top:500px;
+        left:800px;
+
+    }
+}

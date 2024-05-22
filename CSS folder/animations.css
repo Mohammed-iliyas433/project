@@ -1,0 +1,39 @@
+body{
+    background-color: violet;
+    
+}
+
+div{
+    border: 5px solid coral;
+    background-color: whitesmoke;
+    height: 700px;
+    width: 400px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: relative;
+    top:0px;
+    left: 0px;
+    animation-name: movement;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    text-align: justify;
+}
+img{
+    border: 2px solid black;
+    width: 200px;
+}
+@keyframes movement{
+    from{
+        top:0px;
+        left:0px;
+    }
+    to{
+        top:0px;
+        left: 1000px;
+    }
+}

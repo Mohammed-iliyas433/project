@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: violet;
+    text-decoration-thickness: 5px;
+}
+h1{
+    border-style:inset;
+    border-width: 8px;
+    border-color: wheat;
+    width: 250px;
+    height: 70px;
+    text-align: center;
+}
+p{
+    width: 65%;
+    text-align:justify;
+    
+}
+div{
+    border-style: ridge;
+    width: 650px;
+    height: 450px;
+    
+}

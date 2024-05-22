@@ -1,0 +1,20 @@
+section{
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    background-color: burlywood;
+}
+div{
+    border: 2px solid violet;
+    background-color: aquamarine;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+   /* box-shadow: 5px 5px darkred;*/
+   /* box-shadow: 5px 5px 3px saddlebrown;*/
+    box-shadow: 5px 5px 3px 14px brown;
+    /*text-shadow: 12px 12px whitesmoke;*/
+    text-shadow: 10px 10px 4px whitesmoke;
+}

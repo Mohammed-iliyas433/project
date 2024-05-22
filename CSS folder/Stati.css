@@ -1,0 +1,38 @@
+body{
+   background-color: violet;
+}
+.b{
+    border: 5px solid blue;
+    height: 600px;
+    width: 350px;
+    border-radius: 15px;
+    background-color: white;
+    text-align: justify;
+    padding-left: 8px;
+    padding-right: 8px;
+    position: absolute;
+    left: 1000px;
+}
+.o{
+    border: 5px solid blue;
+    height: 600px;
+    width: 350px;
+    border-radius: 15px;
+    background-color: white;
+    text-align: justify;
+    padding-left: 8px;
+    padding-right: 8px;
+    position: relative;
+    left: 500px;
+}
+.x{
+    border: 5px solid blue;
+    height: 600px;
+    width: 350px;
+    border-radius: 15px;
+    background-color: white;
+    position: relative;
+    bottom:605px;
+    left: 35px;
+
+}

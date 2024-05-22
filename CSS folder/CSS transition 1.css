@@ -1,0 +1,14 @@
+div{
+    border: 5px solid violet;
+    background-color: chartreuse;
+    height: 300px;
+    width: 300px;
+    transition-property: width height;
+    transition-duration: 2s;
+    transition-delay: 2s;
+    
+}
+div:hover{
+    width: 700px;
+    height: 800px;
+}

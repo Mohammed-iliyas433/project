@@ -1,0 +1,17 @@
+/*This is a element selector*/
+h1{
+    color: burlywood;
+}
+/*This is a id selector*/
+#MI{
+    color: chartreuse;
+}
+/*This is a class*/
+.i{
+    font-family:sans-serif;
+}
+/*The beolow is used when no selectors are given*/
+*{
+    color: yellowgreen;
+    
+}

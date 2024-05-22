@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    border: 8px solid salmon;
+    padding-left: 550px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    border-radius: 9px;
+    color: violet;
+    margin-top: 55px;
+}
+h2{
+    border: 6px solid brown;
+    margin-top: 85px;
+}
+#MI{
+    border: 10px double cadetblue;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 20px;
+    text-align: justify;
+    padding-bottom: 6px;
+    padding-top: 4px;
+    margin-left: 55px;
+}

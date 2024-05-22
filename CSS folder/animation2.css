@@ -1,0 +1,38 @@
+body{
+    background-color:khaki;
+    height: 800px;
+}
+div{
+    border: 3px solid chartreuse;
+    background-color: tomato;
+    height: 300px;
+    width: 200px;
+    position: relative;
+    animation: movement;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 2;
+    
+    animation-delay: 1s;
+    
+
+}
+@keyframes movement{
+    0%{
+        top:0px;
+        left: 0px;
+    }
+    25%{
+        top:0px;
+        left: 600px;
+    }
+    50%{
+        top: 500px;
+        left: 600px;
+    }
+
+    100%{
+        top:500px;
+        left:0px;
+    }
+}

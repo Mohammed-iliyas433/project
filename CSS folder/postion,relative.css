@@ -1,0 +1,32 @@
+body{
+    background-color:cornflowerblue;
+}
+
+.one{
+    border: 1px solid red;
+    background-color:white;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    left: 1000px;
+}
+.two{
+    border: 1px solid saddlebrown;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    height: 100px;
+    width: 300px;
+    position:absolute;
+    left: 600px;
+}
+.three{
+    border: 1px solid lightgreen;
+    background-color: white;
+    height: 100px;
+    margin-top: 90px;
+    width: 300px;
+    margin-left: 200px;
+}
