@@ -1,0 +1,26 @@
+
+body{
+    background-color: pink;
+}
+form{
+    
+    margin-left: 800px;
+    margin-top: 300px; 
+    
+}
+input{
+    height: 300px;
+    width: 600px;
+    margin-top: 10px;
+    margin-left: -50px
+    
+}
+
+#but{
+    background-color: rgb(78, 197, 80);
+    height: 50px;
+    width: 90px;
+    border-radius: 15px;
+    color: wheat;
+}
+

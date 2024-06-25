@@ -1,0 +1,21 @@
+.one{
+    border: 1px solid red;
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    box-shadow: 3px 3px 45px turquoise;
+}
+.o{
+    border: 1px solid gray;
+    height: 790px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 20px 45px red;
+    
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
