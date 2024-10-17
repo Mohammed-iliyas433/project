@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>Welcome</div>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <button id="but" onclick="changecolor()">Submit</button><br><br>
+    <div id="fo" style="width: 135px; height: 155px ; border: 1px solid black;" onmouseover="on()" onmouseout="o()"></div>
+    <script>
+        
+        function changecolor(){
+            document.querySelector("body").style.backgroundColor="red";
+        }
+        function on(){
+            document.getElementById("fo").innerHTML="Thank you"
+        }
+        function o(){
+            document.getElementById("fo").innerHTML="Welcome"
+        }
+        document.querySelector("p").addEventListener("click",function(){
+            document.querySelector("p").innerHTML="It is event listener"
+        })
+        document.querySelector("p").addEventListener("click",function(){
+            document.querySelector("p").style.color="blue"
+        })
+    </script>
+</body>
+</html>

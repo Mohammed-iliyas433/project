@@ -1,0 +1,218 @@
+header{
+    background-color: rgb(58, 122, 241);
+    height: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    padding-top: 10px;
+    font-size: xx-large;
+    text-align: center;
+}
+section{
+    background-color: rgb(212, 247, 247);
+    height: 500px;
+}
+#art{
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.search input{
+    margin-left: 50px;
+    height: 30px;
+    width: 260px;
+}
+.search button{
+    border-radius: 4px;
+    margin-left: 50px;
+    height: 30px;
+    width: 265px;
+    background-color: rgb(58, 122, 241);
+    font-size: larger;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+hr{
+    margin-top: -10px;
+    margin-right: 1540px;
+    width: 100px;
+}
+#ot{
+    margin-left: 160px;
+    margin-top: 200px;
+    font-size: larger;
+}
+#v{
+    
+    margin-left: 190px;
+    margin-top: -316px;
+    width: 105px;
+}
+#bu{
+    border-radius: 4px;
+    margin-left: 50px;
+    height: 30px;
+    width: 265px;
+    background-color:gray;
+    font-size: larger;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#ind{
+    background-color: rgb(58, 122, 241);
+    height: 180px;
+    width: 800px;
+    margin-left: 600px;
+    margin-top: -220px;
+}
+#wi{
+    margin-left: 600px;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+#one{
+    background-color: gray;
+    height: 200px;
+    width: 150px;
+    margin-left: 400px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 10px;
+}
+#one img{
+    height: 100px;
+}
+#two{
+    background-color: gray;
+    height: 200px;
+    width: 150px;
+    margin-left: 600px;
+    margin-top: -200px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 10px;
+}
+#two img{
+    height: 100px;
+}
+#three{
+    background-color: gray;
+    height: 200px;
+    width: 150px;
+    margin-left: 800px;
+    margin-top: -200px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 10px;
+}
+#three img{
+    height: 100px;
+}
+#four{
+    background-color: gray;
+    height: 200px;
+    width: 150px;
+    margin-left: 1000px;
+    margin-top: -200px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 10px;
+}
+#four img{
+    height: 100px;
+}
+#five{
+    background-color: gray;
+    height: 200px;
+    width: 150px;
+    margin-left: 1200px;
+    margin-top: -200px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 10px;
+}
+#five img{
+    height: 100px;
+}
+#city{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+#Temperature{
+    color: white;
+    font-size: large;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#wind{
+    color: white;
+    font-size: large;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#humidity{
+    color: white;
+    font-size: large;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#ima{
+    position:absolute;
+    margin-left: 600px;
+    
+}
+@media (width<=1300px) and (height<=1000px) {
+    header{
+        width: 1600px;
+    }
+    #ind{
+        width: 600px;
+    }
+    section{
+        width: 1600px;
+        
+    }
+    #ind{
+        height: 200px;
+        width: 900px;
+    }
+    #ima{
+        margin-right: 350px;
+    }
+}
+@media (width<=800px) and (height<=1050px) {
+    header{
+        width: 1400px;
+    }
+    section{
+        width: 1400px;
+    }
+}
+@media (width<=400px) and (height<=700px){
+    header{
+        width: 1480px;
+    }
+    section{
+        width: 1480px;
+       
+    }
+    #ind{
+        width: 840px;
+        height: 165px;
+    }
+    #wi{
+        display: flex;
+    }
+}

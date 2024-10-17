@@ -1,0 +1,24 @@
+.container1{
+    background-color: cadetblue;
+    height: 900px;
+    width: 1200px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+.box{
+    background-color:rebeccapurple;
+    width: 300px;
+    height: 300px;
+    margin: 90px;
+    transition: all 4s linear 1s;
+    
+}
+.box:hover{
+    /*transform: rotate(360deg);*/
+    /*transform: scale(3);
+    transform: scaleX(2);
+    transform: skew(145deg);*/
+    transform: translate(400px,200px);
+}

@@ -1,0 +1,24 @@
+show databases;
+create database zip_code;
+use zip_code;
+create table zip(
+zip varchar(50));
+insert into zip value(500010);
+insert into zip value(500020);
+insert into zip value(500030);
+insert into zip value(500040);
+insert into zip value(500050);
+insert into zip value(500060);
+insert into zip value(500070);
+insert into zip value(600010);
+insert into zip value(600020);
+insert into zip value(600030);
+insert into zip value(600040);
+insert into zip value(600050);
+select * from zip;
+select * from zip where zip=500010;
+select * from zip where zip>500010;
+select * from zip where zip>=600010;
+select * from zip where zip<600010;
+select * from zip where zip<=600020;
+select * from zip where zip!=600050;

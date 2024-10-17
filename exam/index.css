@@ -1,0 +1,16 @@
+/*Create an HTML page with a container div that contains three child div elements. Each 
+child div should have the text "Item 1", "Item 2", and "Item 3" respectively. 
+The layout should adjust based on the screen width:
+When the screen width is 600px or more, the items should be displayed horizontally in a row.
+When the screen width is less than 600px, the items should be displayed vertically in a column.*/
+.items{
+    border: 1px solid black;
+    height: 300px;
+    width:300px
+}
+
+@media (width<600px){
+    .items{
+        display:inline-block;
+    }
+}
