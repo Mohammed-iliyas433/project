@@ -28,7 +28,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-image: linear-gradient(rgb(216, 148, 247),rgba(255, 192, 203, 0.846),lightblue,lightgreen);
+  background-image: linear-gradient(rgb(228, 183, 249),rgba(255, 192, 203, 0.846),lightblue,lightgreen);
 }
 
 h1 {
@@ -46,6 +46,7 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  color: wheat;
 }
 button:hover {
   border-color: #646cff;

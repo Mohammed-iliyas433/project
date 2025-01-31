@@ -7,7 +7,7 @@ ul{
     border: 1px solid rgb(156, 197, 32);
     padding: 20px;
     margin-top: 5px;
-    background-image: linear-gradient(pink,rgba(184, 199, 250, 0.903),lightblue,lightgreen);
+    background-color: rgb(250, 227, 199);
     
 }
 li{
